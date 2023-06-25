@@ -6,7 +6,7 @@ from tkinter import ttk
 import PIL.Image
 import PIL.ImageTk
 
-reference_image = face_recognition.load_image_file("referans.png")#referans alınancak yüzü ekleyin
+reference_image = face_recognition.load_image_file("referans.png")
 reference_encoding = face_recognition.face_encodings(reference_image)[0]
 
 video_capture = cv2.VideoCapture(0)
